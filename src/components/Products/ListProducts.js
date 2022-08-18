@@ -96,14 +96,19 @@ export default function ListProducts() {
             </View>
         </View>
       </TouchableWithoutFeedback>
-      <TouchableWithoutFeedback onPress={goToProduct7}>
+      
+      <Text style={styles.title}>Lociones, Aceites y Fijadores</Text>
+
+
+      <TouchableWithoutFeedback onPress={goToProduct12}>
         <View style={styles.containerProduct}>
             <View style={styles.product}>
-                <Image style={styles.image} source={JaleaExfoliante}/>
-                <Text style={styles.name} numberOfLines={1} ellipsizeMode="tail">Jalea miel (250 gr)</Text>
+                <Image style={styles.image} source={LocionKeratina}/>
+                <Text style={styles.name} numberOfLines={1} ellipsizeMode="tail">Locion Keratina Premium (125 ml)</Text>
             </View>
         </View>
       </TouchableWithoutFeedback>
+      
       <TouchableWithoutFeedback onPress={goToProduct8}>
         <View style={styles.containerProduct}>
             <View style={styles.product}>
@@ -136,14 +141,18 @@ export default function ListProducts() {
             </View>
         </View>
       </TouchableWithoutFeedback>
-      <TouchableWithoutFeedback onPress={goToProduct12}>
+
+      <Text style={styles.title}>Productos del cuidado de la piel</Text>
+
+      <TouchableWithoutFeedback onPress={goToProduct7}>
         <View style={styles.containerProduct}>
             <View style={styles.product}>
-                <Image style={styles.image} source={LocionKeratina}/>
-                <Text style={styles.name} numberOfLines={1} ellipsizeMode="tail">Locion Keratina Premium (125 ml)</Text>
+                <Image style={styles.image} source={JaleaExfoliante}/>
+                <Text style={styles.name} numberOfLines={1} ellipsizeMode="tail">Jalea miel (250 gr)</Text>
             </View>
         </View>
       </TouchableWithoutFeedback>
+      
       <TouchableWithoutFeedback onPress={goToProduct0}>
         <View style={styles.containerProduct}>
             <View style={styles.product}>
@@ -200,6 +209,12 @@ const styles = StyleSheet.create({
     name: {
         marginTop: 15,
         fontSize: 14
+    },
+    title: {
+        fontSize: 20,
+        fontWeight: "bold",
+        marginBottom: 10,
+        marginTop: 30,
     },
     
 });

@@ -10,7 +10,7 @@ export default function NewProducts() {
 //         const resp = await getLastProducts(12);
 //         setProducts(resp);
 //     })();
-//   }, []);
+//   }, []); 
   
 
   return (
