@@ -161,7 +161,7 @@ const Ocultar2 = () => {
 
 const styles = StyleSheet.create({
   btnAddFavoritesContent: {
-      backgroundColor: "#057b00",
+      backgroundColor: colors.primary,
       paddingVertical: 5,
   },
   btnLabel: {
