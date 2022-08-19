@@ -4,6 +4,7 @@ import React from "react";
 import { StyleSheet } from "react-native";
 import Market from "../../screens/Market";
 import Whishlist from "../../screens/Whishlist";
+import Graps from "../../components/Graphs/Graphs";
 import colors from "../../styles/colors";
 import AwesomeIcon from "react-native-vector-icons/FontAwesome";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -33,6 +34,10 @@ export default function AppNavigation() {
             />
             <Tab.Screen name="perfil" component={AccountStack} options={{tabBarLabel: "Account", tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="account" color={"#FFF"} size={20}/>
+          ),}}
+            />
+            <Tab.Screen name="graphs" component={Graps} options={{tabBarLabel: "Graphs", tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="graph" color={"#FFF"} size={20}/>
           ),}}
             />
         </Tab.Navigator>
