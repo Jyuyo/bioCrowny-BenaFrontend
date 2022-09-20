@@ -96,7 +96,7 @@ function getProductApi(id) {
             "MAYOREO": 60.22,
             "MENUDEO": 90.33,
             "CATEGORIA": "CREMAS EDAD",
-            "IMAGEURL": "CREMAANTIAGEDAMA20.png"}
+            "IMAGEURL": "CremaDama"}
             
         break;
 
@@ -108,7 +108,7 @@ function getProductApi(id) {
             "MAYOREO": 86.62,
             "MENUDEO": 129.93,
             "CATEGORIA": "CREMAS EDAD",
-            "IMAGEURL": "CREMAANTIAGECABALLERO20.png"}
+            "IMAGEURL": "CremaCaballero"}
             
         break;
 
@@ -120,7 +120,7 @@ function getProductApi(id) {
             "MAYOREO": 11,
             "MENUDEO": 16.5,
             "CATEGORIA": "JABONES DE TOCADOR",
-            "IMAGEURL": "JABONALGASMARINASYROMERO.png"}
+            "IMAGEURL": "JabonAlgas"}
             
         break;
 
@@ -132,7 +132,7 @@ function getProductApi(id) {
             "MAYOREO": 14.8,
             "MENUDEO": 22.2,
             "CATEGORIA": "JABONES DE TOCADOR",
-            "IMAGEURL": "JABONCONCHANACAR3.png"}
+            "IMAGEURL": "JabonConcha"}
             
         break;
 
@@ -144,7 +144,7 @@ function getProductApi(id) {
             "MAYOREO": 58.42,
             "MENUDEO": 89.64,
             "CATEGORIA": "CRECE PESTAÑAS",
-            "IMAGEURL": "SERUMCRECEPESTANASAMBAR.png"}
+            "IMAGEURL": "SerumCreceAmbar"}
             
         break;
 
@@ -156,7 +156,7 @@ function getProductApi(id) {
             "MAYOREO": 58.42,
             "MENUDEO": 87.64,
             "CATEGORIA": "CRECE PESTAÑAS",
-            "IMAGEURL": "SERUMCRECEPESTANASNEGRO.png"}
+            "IMAGEURL": "SerumCreceNegro"}
             
         break;
 
@@ -168,7 +168,7 @@ function getProductApi(id) {
             "MAYOREO": 72.87,
             "MENUDEO": 126,
             "CATEGORIA": "EXFOLIANTES FACIALES Y CORPORALES",
-            "IMAGEURL": "CREMAEXFOLIANTEACLARANTEARROZ.png"}
+            "IMAGEURL": "CremaExpoliante"}
             
         break;
 
@@ -180,7 +180,7 @@ function getProductApi(id) {
             "MAYOREO": 84,
             "MENUDEO": 126,
             "CATEGORIA": "EXFOLIANTES FACIALES Y CORPORALES",
-            "IMAGEURL": "JALEAEXFOLIANTEDEMIEL.png"}
+            "IMAGEURL": "JaleaExfoliante"}
             
         break;
 
@@ -192,7 +192,7 @@ function getProductApi(id) {
             "MAYOREO": 54.41,
             "MENUDEO": 81.61,
             "CATEGORIA": "SERUM",
-            "IMAGEURL": "SERUMACIDOHIALURONICO.png"}
+            "IMAGEURL": "SerumAcido"}
             
         break;
 
@@ -204,7 +204,7 @@ function getProductApi(id) {
             "MAYOREO": 78.41,
             "MENUDEO": 117.61,
             "CATEGORIA": "SERUM",
-            "IMAGEURL": "SERUMCOLAGENO.png"}
+            "IMAGEURL": "SerumColageno"}
             
         break;
 
@@ -216,7 +216,7 @@ function getProductApi(id) {
             "MAYOREO": 82.29,
             "MENUDEO": 123.44,
             "CATEGORIA": "CUIDADO FACIAL",
-            "IMAGEURL": "ACEITEMARIGREEN.png"}
+            "IMAGEURL": "Aceite"}
             
         break;
 
@@ -228,7 +228,7 @@ function getProductApi(id) {
             "MAYOREO": 34.47,
             "MENUDEO": 51.7,
             "CATEGORIA": "CUIDADO FACIAL",
-            "IMAGEURL": "FIJADORDEMAQUILLAJE.png"}
+            "IMAGEURL": "FijadorMaquillaje"}
             
         break;
 
@@ -240,7 +240,7 @@ function getProductApi(id) {
             "MAYOREO": 47.23,
             "MENUDEO": 70.85,
             "CATEGORIA": "CUIDADO CAPILAR",
-            "IMAGEURL": "LOCIONKERATINAPREMIUM.png"}
+            "IMAGEURL": "LocionKeratina"}
             
         break;
     

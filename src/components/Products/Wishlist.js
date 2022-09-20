@@ -1,8 +1,8 @@
 import { View, Text, StyleSheet } from 'react-native'
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { Button } from 'react-native-paper';
-import { setWishList, } from '../../../src/components/Auth/Token';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { WishlistContext } from '../../context/WishlistContext';
 
 export default function Wishlist(props) {
 
@@ -21,13 +21,15 @@ export default function Wishlist(props) {
         }
       };
 
+      const {wishlist, setWishlist} = useContext(WishlistContext)
+
+
     const addWishList = async () => {
         console.log("añadido a lista de deseos");
-        console.log(singleProduct);
         // await AsyncStorage.setItem('value', 'hollalall');
         // saveArticle("value",JSON.stringify(singleProduct));
-        array.push(singleProduct);
-        console.log("push array",array);
+        setWishlist(wishlist => [singleProduct, ...wishlist])
+        console.log("push array",wishlist);
         saveArticle("value",JSON.stringify(array))
     }
   return (

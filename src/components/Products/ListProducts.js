@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image, FlatList, ScrollView } from 'react-native';
 import React from 'react';
 import Aceite from '../../../assets/img/ACEITEMARIGREEN.png';
 import CremaCaballero from '../../../assets/img/CREMAANTIAGECABALLERO20.png';
@@ -64,6 +64,10 @@ export default function ListProducts() {
 
   return (
     <View style={styles.container}>
+
+
+    <View style={styles.section}>
+
       <TouchableWithoutFeedback onPress={goToProduct3} >
         <View style={styles.containerProduct}>
             <View style={styles.product}>
@@ -96,10 +100,14 @@ export default function ListProducts() {
             </View>
         </View>
       </TouchableWithoutFeedback>
+      </View>
+
       
       <Text style={styles.title}>Lociones, Aceites y Fijadores</Text>
 
+      <View style={styles.section}>
 
+      
       <TouchableWithoutFeedback onPress={goToProduct12}>
         <View style={styles.containerProduct}>
             <View style={styles.product}>
@@ -141,9 +149,11 @@ export default function ListProducts() {
             </View>
         </View>
       </TouchableWithoutFeedback>
+      </View>
 
       <Text style={styles.title}>Productos del cuidado de la piel</Text>
 
+      <View style={styles.section}>
       <TouchableWithoutFeedback onPress={goToProduct7}>
         <View style={styles.containerProduct}>
             <View style={styles.product}>
@@ -179,14 +189,21 @@ export default function ListProducts() {
             </View>
         </View>
       </TouchableWithoutFeedback>
-
+      </View>
 
     </View>
   )
 }
 
 const styles = StyleSheet.create({
+    section: {
+        width: '100%',
+        flexDirection: 'row',
+        flexWrap: "wrap",
+        margin: -3,
+    },
     container: {
+        width: '100%',
         flex: 1,
         flexDirection: "row",
         flexWrap: "wrap",

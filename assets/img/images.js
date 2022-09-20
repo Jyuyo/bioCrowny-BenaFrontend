@@ -1,0 +1,16 @@
+export const images = {
+    Aceite: { image: require('./ACEITEMARIGREEN.png') },
+    CremaCaballero: { image: require('./CREMAANTIAGECABALLERO20.png') },
+    CremaDama: { image: require('./CREMAANTIAGEDAMA20.png') },
+    CremaDepilatoria: { image: require('./CREMADEPILATORIA2.png') },
+    CremaExpoliante: { image: require('./CREMAEXFOLIANTEACLARANTEARROZ.png') },
+    FijadorMaquillaje: { image: require('./FIJADORDEMAQUILLAJE.png') },
+    JabonAlgas: { image: require('./JABONALGASMARINASYROMERO.png') },
+    JabonConcha: { image: require('./JABONCONCHANACAR3.png') },
+    JaleaExfoliante: { image: require('./JALEAEXFOLIANTEDEMIEL.png') },
+    LocionKeratina: { image: require('./LOCIONKERATINAPREMIUM.png') },
+    SerumAcido: { image: require('./SERUMACIDOHIALURONICO.png') },
+    SerumColageno: { image: require('./SERUMCOLAGENO.png') },
+    SerumCreceAmbar: { image: require('./SERUMCRECEPESTANASAMBAR.png') },
+    SerumCreceNegro: { image: require('./SERUMCRECEPESTANASNEGRO.png') },
+}
